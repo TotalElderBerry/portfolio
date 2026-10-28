@@ -88,7 +88,7 @@ export const skillGroups = [
     name: 'AI in development',
     skills: [
       { name: 'Claude', logos: ['anthropic'] },
-      { name: 'OpenAI Codex', logos: [] },
+      { name: 'OpenAI Codex', logos: ['openai'] },
       { name: 'Planning', logos: [] },
       { name: 'Code analysis', logos: [] },
       { name: 'Debugging', logos: [] },
