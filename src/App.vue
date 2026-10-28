@@ -5,7 +5,7 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
 <template>
   <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <header class="site-header border-b border-slate-200">
+  <header class="site-header">
     <div class="mx-auto flex max-w-3xl flex-wrap items-center justify-between gap-x-5 gap-y-3 px-5 py-5 sm:px-8">
       <a class="wordmark font-semibold tracking-tight" href="#top">Brian Lisondra<span class="accent-dot">.</span></a>
       <nav aria-label="Main navigation" class="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-slate-600 sm:gap-x-4">
