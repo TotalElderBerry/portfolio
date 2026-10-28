@@ -13,7 +13,7 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
         <a href="#skills">Skills</a>
         <a href="#contributions">Company Contributions</a>
         <a href="#experience">Experience</a>
-        <a href="https://github.com/TotalElderBerry" target="_blank" rel="noreferrer" aria-label="GitHub profile (opens in a new tab)">GitHub</a>
+        <a href="https://github.com/TotalElderBerry" target="_blank" rel="noreferrer" aria-label="GitHub profile (opens in a new tab)">GitHub <svg class="external-link-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M9.5 2.5h4v4m-.25-3.75L7.5 8.5"/><path d="M12 8.5v3.25a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75v-6A1.75 1.75 0 0 1 4.25 4h3.25"/></svg></a>
       </nav>
     </div>
   </header>
@@ -52,7 +52,7 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
             </a>
             <p class="mb-2 text-sm font-medium text-slate-500">{{ project.focus }}</p>
             <h3 class="mb-3 text-xl font-semibold tracking-tight text-slate-900">
-              <a :href="project.url" target="_blank" rel="noreferrer" :aria-label="`${project.name} website (opens in a new tab)`" class="project-link">{{ project.name }}</a>
+              <a :href="project.url" target="_blank" rel="noreferrer" :aria-label="`${project.name} website (opens in a new tab)`" class="project-link">{{ project.name }} <svg class="external-link-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M9.5 2.5h4v4m-.25-3.75L7.5 8.5"/><path d="M12 8.5v3.25a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75v-6A1.75 1.75 0 0 1 4.25 4h3.25"/></svg></a>
             </h3>
             <p class="mt-auto text-sm leading-6 text-slate-600">{{ project.description }}</p>
             <p class="mt-3 text-xs leading-5 text-slate-500"><span class="font-semibold text-slate-700">Stack:</span> {{ project.stack.join(' · ') }}</p>
@@ -89,7 +89,7 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
             <template v-if="item.image">
               <div>
                 <h3 class="font-semibold tracking-tight">
-                  <a :href="item.url" target="_blank" rel="noreferrer" :aria-label="`${item.name} website (opens in a new tab)`" class="project-link">{{ item.name }}</a>
+                  <a :href="item.url" target="_blank" rel="noreferrer" :aria-label="`${item.name} website (opens in a new tab)`" class="project-link">{{ item.name }} <svg class="external-link-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M9.5 2.5h4v4m-.25-3.75L7.5 8.5"/><path d="M12 8.5v3.25a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75v-6A1.75 1.75 0 0 1 4.25 4h3.25"/></svg></a>
                 </h3>
                 <p class="mt-1 text-xs leading-5 text-slate-500">{{ item.employer }}</p>
                 <p class="mt-3 text-sm leading-6 text-slate-600">{{ item.description }}</p>
@@ -98,7 +98,7 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
             </template>
             <template v-else>
               <h3 class="font-semibold tracking-tight">
-                <a :href="item.url" target="_blank" rel="noreferrer" :aria-label="`${item.name} website (opens in a new tab)`" class="project-link">{{ item.name }}</a>
+                <a :href="item.url" target="_blank" rel="noreferrer" :aria-label="`${item.name} website (opens in a new tab)`" class="project-link">{{ item.name }} <svg class="external-link-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M9.5 2.5h4v4m-.25-3.75L7.5 8.5"/><path d="M12 8.5v3.25a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75v-6A1.75 1.75 0 0 1 4.25 4h3.25"/></svg></a>
               </h3>
               <p class="text-xs leading-5 text-slate-500">{{ item.employer }}</p>
               <div>
@@ -127,7 +127,7 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
   <footer class="border-t border-slate-200">
     <div class="mx-auto flex max-w-3xl flex-col gap-4 px-5 py-6 text-sm text-slate-600 sm:flex-row sm:items-center sm:justify-between sm:px-8">
       <p>© 2026 Brian Keith G. Lisondra · Full Stack Developer</p>
-      <a href="https://github.com/TotalElderBerry" target="_blank" rel="noreferrer" aria-label="Visit Brian Lisondra’s GitHub profile (opens in a new tab)" class="font-medium text-slate-900">GitHub</a>
+      <a href="https://github.com/TotalElderBerry" target="_blank" rel="noreferrer" aria-label="Visit Brian Lisondra’s GitHub profile (opens in a new tab)" class="font-medium text-slate-900">GitHub <svg class="external-link-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M9.5 2.5h4v4m-.25-3.75L7.5 8.5"/><path d="M12 8.5v3.25a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75v-6A1.75 1.75 0 0 1 4.25 4h3.25"/></svg></a>
     </div>
   </footer>
 </template>
