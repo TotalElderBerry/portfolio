@@ -67,19 +67,41 @@ export const companyContributions = [
 export const skillGroups = [
   {
     name: 'Front end',
-    skills: ['Vue', 'React', 'JavaScript', 'HTML & CSS'],
+    skills: [
+      { name: 'Vue', logos: ['vue'] },
+      { name: 'React', logos: ['react'] },
+      { name: 'JavaScript', logos: ['javascript'] },
+      { name: 'HTML & CSS', logos: ['html5', 'css'] },
+    ],
   },
   {
     name: 'Back end',
-    skills: ['Laravel', 'CakePHP', 'Node.js', 'Java · Spring Boot', 'REST APIs'],
+    skills: [
+      { name: 'Laravel', logos: ['laravel'] },
+      { name: 'CakePHP', logos: ['cakephp'] },
+      { name: 'Node.js', logos: ['nodedotjs'] },
+      { name: 'Java · Spring Boot', logos: ['java', 'springboot'] },
+      { name: 'REST APIs', logos: [] },
+    ],
   },
   {
     name: 'AI in development',
-    skills: ['Claude', 'OpenAI Codex', 'Planning', 'Code analysis', 'Debugging'],
+    skills: [
+      { name: 'Claude', logos: ['anthropic'] },
+      { name: 'OpenAI Codex', logos: [] },
+      { name: 'Planning', logos: [] },
+      { name: 'Code analysis', logos: [] },
+      { name: 'Debugging', logos: [] },
+    ],
   },
   {
     name: 'Delivery',
-    skills: ['AWS', 'Testing', 'Peer review', 'Technical documentation'],
+    skills: [
+      { name: 'AWS', logos: ['aws'] },
+      { name: 'Testing', logos: [] },
+      { name: 'Peer review', logos: [] },
+      { name: 'Technical documentation', logos: [] },
+    ],
   },
 ]
 

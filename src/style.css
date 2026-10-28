@@ -119,6 +119,13 @@ a {
   border: 1px solid var(--line);
 }
 
+.tech-logo {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex: none;
+  object-fit: contain;
+}
+
 @media (max-width: 420px) {
   .site-header nav {
     gap: 0.5rem 0.85rem;

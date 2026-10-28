@@ -63,14 +63,21 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
       </div>
     </section>
 
-    <section id="skills" class="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
-      <div class="section-heading mb-10">
-        <h2 class="section-title text-3xl font-semibold tracking-tight sm:text-4xl">Tools for the whole stack</h2>
-      </div>
-      <div class="divide-y divide-slate-200 border-y border-slate-200">
-        <div v-for="group in skillGroups" :key="group.name" class="skill-row grid gap-3 py-5 sm:grid-cols-[200px_1fr] sm:gap-8">
-          <h3 class="text-sm font-semibold">{{ group.name }}</h3>
-          <p class="text-sm leading-6 text-slate-600">{{ group.skills.join(' · ') }}</p>
+    <section id="skills" class="bg-white">
+      <div class="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
+        <div class="section-heading mb-10">
+          <h2 class="section-title text-3xl font-semibold tracking-tight sm:text-4xl">Tools for the whole stack</h2>
+        </div>
+        <div class="divide-y divide-slate-200 border-y border-slate-200">
+          <div v-for="group in skillGroups" :key="group.name" class="skill-row grid gap-3 py-5 sm:grid-cols-[200px_1fr] sm:gap-8">
+            <h3 class="text-sm font-semibold">{{ group.name }}</h3>
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm leading-6 text-slate-600">
+              <span v-for="skill in group.skills" :key="skill.name" class="inline-flex items-center gap-1.5">
+                <img v-for="logo in skill.logos" :key="logo" :src="`/images/tech/${logo}.svg`" alt="" aria-hidden="true" width="18" height="18" class="tech-logo" loading="lazy" decoding="async">
+                <span>{{ skill.name }}</span>
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
