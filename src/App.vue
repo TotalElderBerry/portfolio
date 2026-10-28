@@ -21,7 +21,7 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
   <main id="main-content">
     <section id="top" class="hero-section mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-24 lg:py-28">
       <div>
-        <h1 class="hero-title max-w-[21ch] text-4xl font-semibold leading-[1.08] tracking-[-0.035em] text-slate-950 sm:text-5xl lg:text-6xl">
+        <h1 class="hero-title max-w-[21ch] text-4xl font-semibold leading-[1.08] tracking-[-0.035em] sm:text-5xl lg:text-6xl">
           Building useful products, from interface to API.
         </h1>
       </div>
@@ -40,7 +40,7 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
       <div class="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <div class="section-heading mb-10 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
           <div>
-            <h2 class="section-title text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">Products I helped shape and build</h2>
+            <h2 class="section-title text-3xl font-semibold tracking-tight sm:text-4xl">Products I helped shape and build</h2>
           </div>
           <p class="max-w-md text-sm leading-6 text-slate-600">Three community-focused products used widely in the Philippines.</p>
         </div>
@@ -63,7 +63,7 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
 
     <section id="skills" class="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
       <div class="section-heading mb-10">
-        <h2 class="section-title text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">Tools for the whole stack</h2>
+        <h2 class="section-title text-3xl font-semibold tracking-tight sm:text-4xl">Tools for the whole stack</h2>
       </div>
       <div class="divide-y divide-slate-200 border-y border-slate-200">
         <div v-for="group in skillGroups" :key="group.name" class="skill-row grid gap-3 py-5 sm:grid-cols-[200px_1fr] sm:gap-8">
@@ -77,7 +77,7 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
       <div class="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <div class="section-heading mb-10 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
           <div>
-            <h2 class="section-title text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">Work across different products</h2>
+            <h2 class="section-title text-3xl font-semibold tracking-tight sm:text-4xl">Work across different products</h2>
           </div>
           <p class="max-w-md text-sm leading-6 text-slate-600">Sites I contributed to through my company roles.</p>
         </div>
@@ -113,7 +113,7 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
 
     <section id="experience" class="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
       <div class="section-heading mb-10">
-        <h2 class="section-title text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">A compact work history</h2>
+        <h2 class="section-title text-3xl font-semibold tracking-tight sm:text-4xl">A compact work history</h2>
       </div>
       <ol class="divide-y divide-slate-200 border-y border-slate-200">
         <li v-for="item in experience" :key="item.employer" class="experience-row grid gap-2 py-5 sm:grid-cols-[180px_1fr] sm:items-center sm:gap-6">

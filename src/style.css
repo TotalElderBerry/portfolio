@@ -11,6 +11,7 @@
 :root {
   --paper: #f7f8fa;
   --ink: #242930;
+  --heading: #37322d;
   --muted: #596674;
   --line: #d9e0e7;
   --accent: #526b82;
@@ -76,10 +77,12 @@ a {
 }
 
 .section-title {
+  color: var(--heading);
   text-wrap: balance;
 }
 
 .hero-title {
+  color: var(--heading);
   text-wrap: balance;
 }
 
