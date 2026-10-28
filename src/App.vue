@@ -19,20 +19,22 @@ import { companyContributions, experience, selectedProjects, skillGroups } from 
   </header>
 
   <main id="main-content">
-    <section id="top" class="hero-section mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-24 lg:py-28">
-      <div>
-        <h1 class="hero-title max-w-[21ch] text-4xl font-semibold leading-[1.08] tracking-[-0.035em] sm:text-5xl lg:text-6xl">
-          Building useful products, from interface to API.
-        </h1>
-      </div>
-      <div class="mt-7 max-w-2xl">
-        <p class="text-lg leading-7 text-slate-600 sm:text-xl sm:leading-8">
-          I’m Brian Keith G. Lisondra, a full stack developer who brings AI into the development process—from requirements and planning to coding and debugging—with testing and peer review in the loop.
-        </p>
-        <p class="mt-5 text-sm font-semibold text-slate-700">Vue · Laravel · CakePHP · Spring Boot · AWS</p>
-        <a class="inline-flex border-b border-slate-700 pb-1 pt-6 text-sm font-semibold text-slate-800" href="#projects">
-          Explore selected projects
-        </a>
+    <section id="top" class="hero-band bg-white">
+      <div class="hero-section mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-24 lg:py-28">
+        <div>
+          <h1 class="hero-title max-w-[21ch] text-4xl font-semibold leading-[1.08] tracking-[-0.035em] sm:text-5xl lg:text-6xl">
+            Building useful products, from interface to API.
+          </h1>
+        </div>
+        <div class="mt-7 max-w-2xl">
+          <p class="text-lg leading-7 text-slate-600 sm:text-xl sm:leading-8">
+            I’m Brian Keith G. Lisondra, a full stack developer who brings AI into the development process—from requirements and planning to coding and debugging—with testing and peer review in the loop.
+          </p>
+          <p class="mt-5 text-sm font-semibold text-slate-700">Vue · Laravel · CakePHP · Spring Boot · AWS</p>
+          <a class="inline-flex border-b border-slate-700 pb-1 pt-6 text-sm font-semibold text-slate-800" href="#projects">
+            Explore selected projects
+          </a>
+        </div>
       </div>
     </section>
 
